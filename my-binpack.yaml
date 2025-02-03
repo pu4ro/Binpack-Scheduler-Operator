@@ -1,0 +1,6 @@
+apiVersion: example.com/v1
+kind: BinpackScheduler
+metadata:
+  name: my-binpack
+spec:
+  nodeSelector: "binpack=true"

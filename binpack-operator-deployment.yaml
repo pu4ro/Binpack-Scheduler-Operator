@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: binpack-operator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: binpack-operator
+  template:
+    metadata:
+      labels:
+        app: binpack-operator
+    spec:
+      serviceAccountName: binpack-operator-sa
+      containers:
+      - name: operator
+        image: myrepo/binpack-operator:latest
+        imagePullPolicy: Always
