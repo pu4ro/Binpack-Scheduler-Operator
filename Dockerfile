@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY binpack_operator.py .
 
 # Operator 실행
-CMD ["python", "binpack_operator.py"]
+CMD ["kopf", "run", "binpack_operator.py"]
