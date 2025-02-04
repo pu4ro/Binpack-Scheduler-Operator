@@ -15,5 +15,5 @@ spec:
       serviceAccountName: binpack-operator-sa
       containers:
       - name: operator
-        image: cr.makina.rocks/binpack/binpack-operator:v0.1.0
+        image: cr.makina.rocks/external-hub/binpack-operator:v0.1.0
         imagePullPolicy: Always
