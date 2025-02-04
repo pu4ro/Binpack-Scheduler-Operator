@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Operator 코드 복사
-COPY operator.py .
+COPY binpack_operator.py .
 
 # Operator 실행
-CMD ["python", "operator.py"]
+CMD ["python", "binpack_operator.py"]

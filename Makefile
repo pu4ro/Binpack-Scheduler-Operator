@@ -1,5 +1,5 @@
-IMAGE_NAME=myrepo/binpack-operator
-TAG=latest
+IMAGE_NAME=cr.makina.rocks/binpack/binpack-operator
+TAG=v0.1.0
 
 # 빌드
 build:

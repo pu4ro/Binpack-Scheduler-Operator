@@ -1,4 +1,4 @@
-apiVersion: example.com/v1
+apiVersion: binpack.k8s.io/v1
 kind: BinpackScheduler
 metadata:
   name: my-binpack
