@@ -1,4 +1,4 @@
-IMAGE_NAME=cr.makina.rocks/binpack/binpack-operator
+IMAGE_NAME=cr.makina.rocks/external-hub/binpack-operator
 TAG=v0.1.0
 
 # 빌드
